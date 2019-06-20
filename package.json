@@ -1,36 +1,72 @@
 {
-  "name": "login-v0.1",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.15",
-    "@types/node": "12.0.8",
-    "@types/react": "16.8.21",
-    "@types/react-dom": "16.8.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "typescript": "3.5.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "login-v0.1",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/bootstrap": "^4.3.0",
+        "@types/classnames": "^2.2.8",
+        "@types/express": "^4.17.0",
+        "@types/gravatar": "^1.8.0",
+        "@types/jest": "24.0.15",
+        "@types/jsonwebtoken": "^8.3.2",
+        "@types/jwt-decode": "^2.2.1",
+        "@types/mongoose": "^5.5.6",
+        "@types/node": "12.0.8",
+        "@types/node-sass": "^4.11.0",
+        "@types/passport": "^1.0.0",
+        "@types/passport-jwt": "^3.0.1",
+        "@types/react": "16.8.21",
+        "@types/react-dom": "16.8.4",
+        "@types/react-redux": "^7.1.0",
+        "@types/react-router-dom": "^4.3.4",
+        "@types/redux": "^3.6.0",
+        "@types/redux-thunk": "^2.1.0",
+        "@types/validator": "^10.11.1",
+        "axios": "^0.19.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.3.1",
+        "classnames": "^2.2.6",
+        "express": "^4.17.1",
+        "gravatar": "^1.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-decode": "^2.2.0",
+        "mongoose": "^5.6.0",
+        "node-sass": "^4.12.0",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.1.0",
+        "react-router-dom": "^5.0.1",
+        "react-scripts": "3.0.1",
+        "redux": "^4.0.1",
+        "redux-thunk": "^2.3.0",
+        "typescript": "3.5.2",
+        "validator": "^11.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
 }
